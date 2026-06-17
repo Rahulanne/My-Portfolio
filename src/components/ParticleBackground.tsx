@@ -48,7 +48,22 @@ export const ParticleBackground: React.FC<ParticleBackgroundProps> = ({ theme = 
 
     window.addEventListener('resize', handleResize);
 
+    let isIntersecting = true;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        const wasIntersecting = isIntersecting;
+        isIntersecting = entry.isIntersecting;
+        if (isIntersecting && !wasIntersecting) {
+          render();
+        }
+      },
+      { threshold: 0.05 }
+    );
+    observer.observe(canvas);
+
     const render = () => {
+      if (!isIntersecting) return;
+
       ctx.clearRect(0, 0, width, height);
 
       // Set colors based on the theme
@@ -96,6 +111,7 @@ export const ParticleBackground: React.FC<ParticleBackgroundProps> = ({ theme = 
 
     return () => {
       window.removeEventListener('resize', handleResize);
+      observer.disconnect();
       cancelAnimationFrame(animationFrameId);
     };
   }, [theme]);

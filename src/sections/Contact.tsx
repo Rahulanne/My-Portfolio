@@ -44,14 +44,14 @@ export const Contact: React.FC = () => {
   return (
     <section 
       id="contact" 
-      className="py-28 bg-slate-100/40 dark:bg-slate-900/10 border-b border-slate-200 dark:border-slate-800/80 transition-colors duration-300"
+      className="py-16 md:py-28 bg-slate-100/40 dark:bg-slate-900/10 border-b border-slate-200 dark:border-slate-800/80 transition-colors duration-300"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.4 }}
         >
           {/* Header */}
           <div className="text-center mb-16">

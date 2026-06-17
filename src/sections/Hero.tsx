@@ -147,6 +147,7 @@ export const Hero: React.FC = () => {
                 alt="Rahul Anne Avatar"
                 className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-500"
                 loading="eager"
+                fetchPriority="high"
               />
             </div>
             

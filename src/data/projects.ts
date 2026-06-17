@@ -47,7 +47,7 @@ export const projects: Project[] = [
     longDescription: 'Contributed to the development and maintenance of the global Pizza Hut web application for Yum! Brands. Implemented responsive frontend modules, region-specific UI adaptations (including Right-to-Left (RTL) layout support for Middle Eastern markets), and reactive programming patterns using RxJS. Optimized initial load times and bundle sizes to boost Lighthouse performance.',
     techStack: ['Angular', 'TypeScript', 'Bootstrap', 'PrimeNG', 'RxJS', 'REST APIs', 'RTL Layouts'],
     githubUrl: '', // Confidential source code
-    liveDemoUrl: 'https://www.pizzahut.com', // Active public portal
+    liveDemoUrl: '', // Confidential public portal link removed
     imageUrl: '/assets/projects/pizzahut.jpg',
     featured: true,
     category: 'E-commerce',

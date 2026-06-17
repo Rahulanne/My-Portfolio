@@ -46,6 +46,44 @@
         transition: background-color 0.3s ease, color 0.3s ease;
       }
     </style>
+
+    <!-- Structured Data Person Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rahul Anne",
+        "jobTitle": "Senior Frontend Engineer",
+        "url": "https://rahulanne.dev",
+        "sameAs": [
+          "https://github.com/Rahulanne",
+          "https://www.linkedin.com/in/rahul-anne/"
+        ],
+        "knowsAbout": [
+          "React",
+          "Angular",
+          "TypeScript",
+          "JavaScript",
+          "Micro Frontend Architecture",
+          "Redux Toolkit",
+          "RxJS",
+          "Tailwind CSS",
+          "Web Accessibility (WCAG)",
+          "Performance Optimization",
+          "JWT Authentication"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Qualibar Pvt Ltd"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hyderabad",
+          "addressRegion": "Telangana",
+          "addressCountry": "India"
+        }
+      }
+    </script>
   </head>
   <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased min-h-screen">
     <div id="root"></div>
