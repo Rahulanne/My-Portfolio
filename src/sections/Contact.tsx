@@ -38,7 +38,7 @@ export const Contact: React.FC = () => {
       href: 'https://github.com/Rahulanne', 
       label: 'GitHub' 
     },
-    { icon: <img src="/linkedin_logo.avif" alt="LinkedIn" className="w-[22px] h-[22px] object-contain" />, href: 'https://www.linkedin.com/in/rahul-anne/', label: 'LinkedIn' }
+    { icon: <img src="/linkedin_logo.png" alt="LinkedIn" className="w-[22px] h-[22px] object-contain" />, href: 'https://www.linkedin.com/in/rahul-anne/', label: 'LinkedIn' }
   ];
 
   return (

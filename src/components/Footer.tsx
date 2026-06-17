@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
       href: 'https://github.com/Rahulanne', 
       label: 'GitHub' 
     },
-    { icon: <img src="/linkedin_logo.avif" alt="LinkedIn" className="w-[18px] h-[18px] object-contain" />, href: 'https://www.linkedin.com/in/rahul-anne/', label: 'LinkedIn' },
+    { icon: <img src="/linkedin_logo.png" alt="LinkedIn" className="w-[18px] h-[18px] object-contain" />, href: 'https://www.linkedin.com/in/rahul-anne/', label: 'LinkedIn' },
     { icon: <FiMail size={18} />, href: 'mailto:rahulanne04@gmail.com', label: 'Email' }
   ];
 

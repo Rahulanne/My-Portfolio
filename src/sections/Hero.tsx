@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
       href: 'https://github.com/Rahulanne', 
       label: 'GitHub' 
     },
-    { icon: <img src="/linkedin_logo.avif" alt="LinkedIn" className="w-5 h-5 object-contain" />, href: 'https://www.linkedin.com/in/rahul-anne/', label: 'LinkedIn' },
+    { icon: <img src="/linkedin_logo.png" alt="LinkedIn" className="w-5 h-5 object-contain" />, href: 'https://www.linkedin.com/in/rahul-anne/', label: 'LinkedIn' },
     { icon: <FiMail size={20} />, href: 'mailto:rahulanne04@gmail.com', label: 'Email' }
   ];
 

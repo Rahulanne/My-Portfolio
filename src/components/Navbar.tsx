@@ -43,7 +43,7 @@ export const Navbar: React.FC = () => {
           onClick={() => handleScrollTo('hero')}
           className="font-heading font-extrabold text-2xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-accent-indigo via-accent-violet to-accent-rose focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-lg px-2"
         >
-          RA.
+          Rahul Anne
         </button>
 
         {/* Desktop Navigation */}

@@ -46,8 +46,8 @@ export const Achievements: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                whileHover={{ y: -5 }}
-                className="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+                whileHover={{ y: -5, transition: { duration: 0.2, ease: 'easeOut' } }}
+                className="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center gap-3 mb-4">
