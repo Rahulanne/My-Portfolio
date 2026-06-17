@@ -1,0 +1,235 @@
+Build a modern, premium, responsive personal portfolio website inspired by top-tier developer portfolios deployed on Vercel.
+
+IMPORTANT RULES:
+
+* Do not invent any projects, skills, experience, education, achievements, certifications, clients, companies, awards, blog posts, social links, testimonials, statistics, or personal details.
+* If information is missing, display the section only if data is provided.
+* Do not use placeholder content such as "Lorem Ipsum".
+* Every piece of displayed information must come from the data provided below.
+* Use clean animations, smooth scrolling, subtle glassmorphism, gradient accents, and professional typography.
+* Prioritize performance, accessibility, SEO, and mobile responsiveness.
+* Build using Next.js 15+, React, TypeScript, Tailwind CSS, and Framer Motion.
+* Deploy-ready for Vercel.
+
+WEBSITE STRUCTURE
+
+1. HERO SECTION
+
+* Full-screen landing section.
+* Professional profile image placeholder.
+* Greeting:
+  "Hi, I'm Rahul Anne"
+* Title:
+  "Senior Frontend Developer"
+* Subtitle:
+  "Building scalable web applications with React, Angular, TypeScript, and modern frontend technologies."
+* CTA Buttons:
+
+  * Download Resume
+  * View Projects
+  * Contact Me
+* Background animation using particles or subtle floating elements.
+
+2. ABOUT SECTION
+
+Display:
+
+Name: Rahul Anne
+
+Role: Senior Software Developer
+
+Experience:
+
+* 7+ years in frontend development
+
+Current Company:
+
+* Qualibar Pvt Ltd (Parent Company: Vasquez)
+
+Location:
+
+* Hyderabad, Telangana, India
+
+Education:
+
+* B.Tech (Hons) in Electronics and Communication Engineering
+
+Professional Summary:
+
+"Frontend-focused software developer with extensive experience building enterprise-scale healthcare and insurance platforms. Skilled in React, Angular, TypeScript, JavaScript, HTML, CSS, API integrations, workflow systems, metadata-driven applications, and performance optimization. Experienced in building scalable, reusable, and maintainable user interfaces while collaborating with cross-functional teams."
+
+3. SKILLS SECTION
+
+Frontend:
+
+* React
+* Angular
+* TypeScript
+* JavaScript
+* HTML5
+* CSS3
+* SCSS
+* Bootstrap
+* Tailwind CSS
+
+State Management:
+
+* RxJS
+* NgRx
+* Redux Toolkit
+
+UI Libraries:
+
+* PrimeNG
+* Material UI
+
+Backend Familiarity:
+
+* Node.js
+* PHP
+
+Tools:
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* Firebase
+* Vercel
+
+Concepts:
+
+* REST APIs
+* PWA
+* Authentication
+* Route Guards
+* Lazy Loading
+* CI/CD
+* Performance Optimization
+* Responsive Design
+* Component Architecture
+* Design Systems
+
+4. EXPERIENCE SECTION
+
+Company:
+Qualibar Pvt Ltd
+
+Role:
+Senior Software Developer
+
+Description:
+
+* Developed and maintained enterprise healthcare and insurance platforms.
+* Built reusable Angular and React components.
+* Implemented metadata-driven UI systems.
+* Integrated REST APIs and third-party services.
+* Worked on workflow-based applications with approval and review processes.
+* Improved application performance and maintainability.
+* Participated in Agile development and code reviews.
+* Contributed to PWA implementation and notification systems.
+
+5. PROJECTS SECTION
+
+Create project cards.
+
+Project 1:
+Healthcare & Insurance Platform
+
+Description:
+Enterprise platform supporting multiple clients with dynamic workflows, policy management, user onboarding, and healthcare-related operations.
+
+Technologies:
+Angular, TypeScript, PrimeNG, REST APIs
+
+Project 2:
+Metadata-Driven UI System
+
+Description:
+Built configurable interfaces where screens, forms, and workflows are dynamically rendered from metadata.
+
+Technologies:
+Angular, TypeScript, JSON Configurations
+
+Project 3:
+Portfolio Website
+
+Description:
+Personal portfolio showcasing experience, skills, and professional journey.
+
+Technologies:
+Next.js, React, Tailwind CSS, Vercel
+
+6. ACHIEVEMENTS SECTION
+
+* 7+ years of frontend development experience.
+* Delivered multiple enterprise applications.
+* Built reusable component systems.
+* Contributed to scalable workflow-driven platforms.
+* Successfully transitioned from Angular specialization to React development.
+
+7. RESUME SECTION
+
+Display:
+"Download my latest resume"
+
+Prominent Download Button.
+
+8. CONTACT SECTION
+
+Display:
+
+Name:
+Rahul Anne
+
+Email:
+[ADD EMAIL HERE]
+
+LinkedIn:
+[ADD LINKEDIN URL HERE]
+
+GitHub:
+[ADD GITHUB URL HERE]
+
+Location:
+Hyderabad, Telangana, India
+
+Contact Form:
+
+* Name
+* Email
+* Message
+
+9. FOOTER
+
+Text:
+"© 2026 Rahul Anne. All Rights Reserved."
+
+DESIGN REQUIREMENTS
+
+* Dark theme by default.
+* Optional light mode toggle.
+* Premium developer portfolio aesthetic.
+* Glassmorphism cards.
+* Gradient accents using blue, purple, and cyan.
+* Smooth section transitions.
+* Framer Motion animations.
+* Mobile-first responsive design.
+* Lighthouse score above 90.
+* SEO metadata included.
+* Open Graph metadata included.
+* Structured data schema included.
+
+DELIVERABLES
+
+Generate:
+
+* Complete Next.js project structure.
+* Components folder structure.
+* Tailwind configuration.
+* SEO configuration.
+* Responsive layout.
+* Production-ready code.
+* Vercel deployment configuration.
+
+Do not generate any fake experience, fake companies, fake project links, fake metrics, or fake achievements beyond the information provided above.

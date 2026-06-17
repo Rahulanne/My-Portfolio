@@ -2,70 +2,64 @@ import { Experience } from '../types';
 
 export const experiences: Experience[] = [
   {
-    id: 'exp-1',
-    company: 'TechSolutions Inc.',
-    role: 'Senior Frontend Developer',
-    location: 'San Francisco, CA (Remote)',
-    startDate: '2023-03',
+    id: 'qualibar',
+    company: 'Qualibar Pvt Ltd',
+    role: 'Senior Software Engineer',
+    location: 'Hyderabad, India',
+    startDate: '2024-05',
     endDate: 'Present',
     responsibilities: [
-      'Lead frontend development for enterprise SaaS products using React, TypeScript, and Tailwind CSS',
-      'Architect and maintain component library used across 5+ product teams',
-      'Mentor junior developers through code reviews, pair programming, and technical guidance',
-      'Collaborate with UX/UI designers to implement pixel-perfect, accessible interfaces',
-      'Optimize application performance achieving 95+ Lighthouse scores',
-      'Implement CI/CD pipelines with automated testing and deployment',
+      'Lead frontend development for a multi-tenant React application using React 18, Hooks, Redux Toolkit, and reusable component architectures.',
+      'Design and build reusable enterprise UI component libraries (VUI) with React, TypeScript, and Tailwind CSS, reducing development cycles.',
+      'Contribute to a scalable multi-repository architecture spanning 3+ applications, promoting independent micro-frontend developments.',
+      'Develop public-facing enrollment portals supporting multiple onboarding models: G2C (Group to Consumer), A2C (Agent to Consumer), and D2C (Direct to Consumer).',
+      'Implement JWT token-based authentication including access/refresh tokens and role-based access control (RBAC) across multiple roles.',
+      'Implement Progressive Web App (PWA) support to enable offline availability and mobile-friendly app-like capabilities.',
+      'Integrated user-scheduled notification systems for timely web and mobile app alerts.'
     ],
     achievements: [
-      'Reduced bundle size by 40% through code splitting and tree shaking',
-      'Improved First Contentful Paint from 2.1s to 0.8s',
-      'Led migration from AngularJS to React for core product modules',
-      'Established frontend architecture standards adopted company-wide',
+      'Built a standard reusable React shell and enrollment flow package for enterprise-wide utilization.',
+      'Created a standalone UI validation app to compile and verify system components for HIPAA/PCI compliance.',
+      'Established high performance and maintainable UI patterns across multiple modules.'
     ],
-    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'React Query', 'Zustand', 'Vitest', 'Playwright', 'GitHub Actions'],
+    techStack: ['React 18', 'Angular', 'TypeScript', 'Redux Toolkit', 'PrimeReact', 'Tailwind CSS', 'Vite', 'PWA', 'REST APIs']
   },
   {
-    id: 'exp-2',
-    company: 'DigitalCraft Agency',
-    role: 'Frontend Developer',
-    location: 'New York, NY',
-    startDate: '2021-06',
-    endDate: '2023-02',
+    id: 'sticsoft',
+    company: 'Stic Soft E-Solutions Pvt Ltd',
+    role: 'Software Engineer',
+    location: 'Hyderabad, India',
+    startDate: '2020-09',
+    endDate: '2024-04',
     responsibilities: [
-      'Developed responsive web applications for diverse clients using React and Angular',
-      'Built reusable component systems following atomic design principles',
-      'Integrated REST APIs and GraphQL endpoints with proper error handling',
-      'Implemented automated testing strategies with Jest and React Testing Library',
-      'Collaborated with backend developers to define API contracts',
-      'Ensured WCAG 2.1 AA compliance across all projects',
+      'Developed and maintained customer-facing features for Pizza Hut web application (Yum! Brands) supporting global e-commerce workflows.',
+      'Programmed responsive frontend modules using Angular, TypeScript, and RxJS reactive streams to improve usability and maintainability.',
+      'Supported region-specific UI adaptations and Right-to-Left (RTL) layout rendering for Middle Eastern markets.',
+      'Integrated REST APIs for customer transactions, order processing, and real-time frontend rendering.',
+      'Participated in code reviews, bug fixes, and environment releases across Dev, QA, UAT, and Production.'
     ],
     achievements: [
-      'Delivered 15+ client projects on time and within budget',
-      'Achieved 98% client satisfaction rate',
-      'Reduced development time by 30% through component reuse',
-      'Introduced TypeScript adoption across the frontend team',
+      'Awarded "Star of the Quarter" in 2022 by Stic Soft for outstanding contributions and reliable project deliveries.',
+      'Successfully executed Angular framework migrations from v4 to v13, reducing technical debt and modernization bottlenecks.',
+      'Boosted Lighthouse performance and initial load times through bundle size optimization, tree-shaking, and lazy loading.'
     ],
-    techStack: ['React', 'Angular', 'TypeScript', 'SCSS', 'Jest', 'Cypress', 'Storybook', 'GitLab CI'],
+    techStack: ['Angular', 'TypeScript', 'RxJS', 'PrimeNG', 'Bootstrap', 'REST APIs', 'Git']
   },
   {
-    id: 'exp-3',
-    company: 'StartupXYZ',
-    role: 'Junior Frontend Developer',
-    location: 'Austin, TX',
-    startDate: '2019-08',
-    endDate: '2021-05',
+    id: 'letsgettin',
+    company: 'LetsGettin Private Limited',
+    role: 'Associate Software Engineer',
+    location: 'Hyderabad, India',
+    startDate: '2019-09',
+    endDate: '2020-09',
     responsibilities: [
-      'Built and maintained customer-facing features for the main product',
-      'Fixed cross-browser compatibility issues and performance bottlenecks',
-      'Participated in agile ceremonies: sprint planning, standups, retrospectives',
-      'Wrote unit and integration tests for critical user flows',
-      'Contributed to design system documentation and component library',
+      'Started frontend engineering with HTML5, CSS3, Bootstrap, and JavaScript, building responsive layouts and web views.',
+      'Gained core expertise in Angular fundamentals including component hierarchies, routing guards, directives, and forms.',
+      'Supported senior developers in debugging, UI tweaks, and incremental feature updates during agile iterations.'
     ],
     achievements: [
-      'Implemented real-time chat feature using WebSockets',
-      'Improved mobile conversion rate by 25% through responsive optimizations',
-      'Reduced production bugs by 40% through improved testing practices',
+      'Recognized as a "Quick Learner" for rapidly picking up framework concepts and active involvement in team deliverables.'
     ],
-    techStack: ['React', 'JavaScript', 'Redux', 'CSS Modules', 'WebSocket', 'Jest', 'Enzyme'],
-  },
+    techStack: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Angular']
+  }
 ];
