@@ -1,0 +1,71 @@
+import { Experience } from '../types';
+
+export const experiences: Experience[] = [
+  {
+    id: 'exp-1',
+    company: 'TechSolutions Inc.',
+    role: 'Senior Frontend Developer',
+    location: 'San Francisco, CA (Remote)',
+    startDate: '2023-03',
+    endDate: 'Present',
+    responsibilities: [
+      'Lead frontend development for enterprise SaaS products using React, TypeScript, and Tailwind CSS',
+      'Architect and maintain component library used across 5+ product teams',
+      'Mentor junior developers through code reviews, pair programming, and technical guidance',
+      'Collaborate with UX/UI designers to implement pixel-perfect, accessible interfaces',
+      'Optimize application performance achieving 95+ Lighthouse scores',
+      'Implement CI/CD pipelines with automated testing and deployment',
+    ],
+    achievements: [
+      'Reduced bundle size by 40% through code splitting and tree shaking',
+      'Improved First Contentful Paint from 2.1s to 0.8s',
+      'Led migration from AngularJS to React for core product modules',
+      'Established frontend architecture standards adopted company-wide',
+    ],
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'React Query', 'Zustand', 'Vitest', 'Playwright', 'GitHub Actions'],
+  },
+  {
+    id: 'exp-2',
+    company: 'DigitalCraft Agency',
+    role: 'Frontend Developer',
+    location: 'New York, NY',
+    startDate: '2021-06',
+    endDate: '2023-02',
+    responsibilities: [
+      'Developed responsive web applications for diverse clients using React and Angular',
+      'Built reusable component systems following atomic design principles',
+      'Integrated REST APIs and GraphQL endpoints with proper error handling',
+      'Implemented automated testing strategies with Jest and React Testing Library',
+      'Collaborated with backend developers to define API contracts',
+      'Ensured WCAG 2.1 AA compliance across all projects',
+    ],
+    achievements: [
+      'Delivered 15+ client projects on time and within budget',
+      'Achieved 98% client satisfaction rate',
+      'Reduced development time by 30% through component reuse',
+      'Introduced TypeScript adoption across the frontend team',
+    ],
+    techStack: ['React', 'Angular', 'TypeScript', 'SCSS', 'Jest', 'Cypress', 'Storybook', 'GitLab CI'],
+  },
+  {
+    id: 'exp-3',
+    company: 'StartupXYZ',
+    role: 'Junior Frontend Developer',
+    location: 'Austin, TX',
+    startDate: '2019-08',
+    endDate: '2021-05',
+    responsibilities: [
+      'Built and maintained customer-facing features for the main product',
+      'Fixed cross-browser compatibility issues and performance bottlenecks',
+      'Participated in agile ceremonies: sprint planning, standups, retrospectives',
+      'Wrote unit and integration tests for critical user flows',
+      'Contributed to design system documentation and component library',
+    ],
+    achievements: [
+      'Implemented real-time chat feature using WebSockets',
+      'Improved mobile conversion rate by 25% through responsive optimizations',
+      'Reduced production bugs by 40% through improved testing practices',
+    ],
+    techStack: ['React', 'JavaScript', 'Redux', 'CSS Modules', 'WebSocket', 'Jest', 'Enzyme'],
+  },
+];

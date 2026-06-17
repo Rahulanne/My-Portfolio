@@ -1,0 +1,25 @@
+Act as a senior frontend architect and UX reviewer.
+
+Review the entire portfolio project and improve it for:
+
+- Recruiter conversion
+- Client conversion
+- Performance
+- Accessibility
+- SEO
+- Mobile responsiveness
+- Modern UI consistency
+
+Remove unnecessary complexity.
+Reduce animation overuse.
+Improve typography hierarchy.
+Improve spacing system.
+Improve color contrast.
+Improve project showcase section.
+
+Refactor code where necessary.
+Ensure TypeScript types are strict.
+Remove dead code.
+Ensure Lighthouse scores target 95+.
+
+Provide the updated codebase.

@@ -1,0 +1,168 @@
+Create a modern, production-ready personal portfolio website for a frontend developer named Rahul Anne.
+
+Tech Stack:
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+- React Icons
+- Framer Motion (subtle animations only)
+- Responsive Design (Mobile, Tablet, Desktop)
+
+Project Requirements:
+- Create a clean, professional, modern portfolio.
+- Focus on recruiter and client conversion rather than flashy animations.
+- Follow best UI/UX practices.
+- Use a dark/light theme toggle with theme persistence.
+- Use semantic HTML and accessibility best practices.
+- Optimize for SEO and performance.
+- Use component-based architecture.
+- Include placeholder content that is easy to replace later.
+
+Pages/Sections:
+
+1. Hero Section
+- Name: Rahul Anne
+- Title: Frontend Developer
+- Subtitle mentioning React, Angular, TypeScript, HTML, CSS
+- Professional introduction
+- CTA buttons:
+  - View Projects
+  - Download Resume
+  - Contact Me
+- Social icons:
+  - GitHub
+  - LinkedIn
+  - Email
+
+2. About Section
+- Professional summary
+- Years of experience placeholder
+- Highlight frontend expertise
+- Highlight experience with React, Angular, TypeScript
+- Highlight interest in modern web technologies
+
+3. Skills Section
+Display skills grouped by category.
+
+Frontend:
+- React
+- Angular
+- TypeScript
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+Tools:
+- Git
+- GitHub
+- VS Code
+- Postman
+
+Backend Knowledge:
+- PHP
+- REST APIs
+
+4. Projects Section
+Create reusable project card component.
+
+Each project card should include:
+- Screenshot placeholder
+- Project title
+- Description
+- Tech stack badges
+- GitHub button
+- Live Demo button
+
+Add 6 sample projects with placeholder data.
+
+5. Experience Section
+Timeline style layout.
+
+Each experience entry:
+- Company Name
+- Role
+- Duration
+- Responsibilities
+- Achievements
+
+Use placeholder data.
+
+6. Certifications Section
+Grid layout.
+Add placeholder certifications.
+
+7. Contact Section
+Include:
+- Contact form
+- Email
+- LinkedIn
+- GitHub
+
+Use frontend validation.
+
+8. Footer
+- Quick links
+- Copyright
+- Social links
+
+Additional Features:
+
+- Sticky navbar
+- Smooth scrolling navigation
+- Active section highlighting
+- Scroll-to-top button
+- Loading animation
+- Mobile hamburger menu
+- Theme switcher
+- Animated section reveals
+- Reusable components
+- Clean folder structure
+
+SEO Requirements:
+
+Add:
+- Meta title
+- Meta description
+- Open Graph tags
+- Twitter cards
+- Sitemap support
+- Robots.txt
+
+Performance Requirements:
+
+- Lazy load images
+- Optimize bundle size
+- Lighthouse score target above 90
+- Responsive images
+- Code splitting where appropriate
+
+Folder Structure:
+
+src/
+  components/
+  sections/
+  hooks/
+  data/
+  assets/
+  types/
+  layouts/
+  utils/
+
+Create all files necessary for a complete working project.
+
+Provide:
+1. Full project structure
+2. All source code
+3. Installation instructions
+4. Commands to run locally
+5. Commands to build for production
+
+Use modern design similar to high-quality developer portfolios while maintaining professionalism and readability.
+
+Do not use lorem ipsum. Use realistic placeholder content that can be easily replaced later.
+
+Generate a complete, deployable application.
+
+[NOTE FOR THE AGENT: The website structure is already half-built in the repository. Please inspect the existing index.html, styles.css, and script.js files first. DO NOT overwrite what is already working; simply pick up where the last model left off and build out the remaining features listed below.]
