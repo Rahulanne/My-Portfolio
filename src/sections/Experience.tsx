@@ -109,7 +109,7 @@ export const Experience: React.FC = () => {
                         {exp.techStack.map((tech, tIdx) => (
                           <span 
                             key={tIdx} 
-                            className="px-2 py-1 text-[10px] font-bold text-slate-700 dark:text-slate-350 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-md"
+                            className="px-2.5 py-1 text-[10px] font-bold text-slate-800 dark:text-slate-100 bg-white dark:bg-slate-800/60 border border-slate-300 dark:border-slate-700 rounded-md shadow-sm dark:shadow-[0_2px_6px_rgba(0,0,0,0.3)]"
                           >
                             {tech}
                           </span>
